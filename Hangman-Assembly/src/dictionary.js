@@ -480,7 +480,10 @@ export const dictionary = [
     "wrong",
     "yellow",
     "yesterday",
-    "young"
+    "young",
+    "zoe",
+    "vonnie",
+    
 ];
 
 export const languages = [
