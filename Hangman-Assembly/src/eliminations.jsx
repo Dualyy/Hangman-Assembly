@@ -1,9 +1,9 @@
 export default function Eliminations({ language }) {
-    
+    // function to change the color of javascript language
     function javascript() {
         return { backgroundColor: language.color, color: "black" }
     }
-
+    // function to display the active languages
     function active() {
         return (
                         <div className='languages' style={ language.name === "Javascript" ? javascript() : { backgroundColor: language.color }} >
@@ -12,7 +12,7 @@ export default function Eliminations({ language }) {
         );
     }
 
-
+// function to display the eliminated languages
     function eliminated() {
         return (
             <div className='languages' style={{ backgroundColor: language.color }} >
@@ -27,4 +27,4 @@ export default function Eliminations({ language }) {
     }
 
     return language.isEliminated === true ? eliminated() : active();
-}
+}  // end of Eliminations function
