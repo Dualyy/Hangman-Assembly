@@ -1,5 +1,5 @@
 export default function GameInfo() {
-
+  // function to display the game information
     return(<div className="gameInformation">
         <h1>
           Assembly: Endgame
